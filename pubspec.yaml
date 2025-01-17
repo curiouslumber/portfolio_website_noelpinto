@@ -87,3 +87,8 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+fonts:
+  - family: Inter
+    fonts:
+      - asset: fonts/static/Inter_24pt-Regular.ttf
