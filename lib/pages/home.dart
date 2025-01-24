@@ -16,11 +16,15 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Expanded(
-              flex: 4,
+              flex: 5,
               child: Container(
                 height: 600,
                 decoration: BoxDecoration(
                     border: Border.all(color: Color(0xffC6A686), width: 1)),
+                child: Image.asset(
+                  'assets/images/selfpic.jpg',
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
             Spacer(),
