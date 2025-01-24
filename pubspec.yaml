@@ -28,11 +28,14 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  basic_underline: ^1.4.0
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
   flutter_native_splash: ^2.4.4
+  get: ^4.6.6
   google_fonts: ^6.2.1
+  card_swiper: ^3.0.1
 
 dev_dependencies:
   flutter_lints: ^5.0.0
@@ -74,6 +77,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
-
 flutter_native_splash:
   color: "#252525"
